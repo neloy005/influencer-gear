@@ -4,6 +4,7 @@
 /* common styles */
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 
 /* nav heading */
@@ -73,8 +74,10 @@ nav h2 {
 
 /* all-products-section  */
 .all-products-section {
+
     max-width: 1047px;
     margin: auto;
+    margin-top: 150px;
 }
 
 .section-two-heading h2 {
@@ -164,4 +167,66 @@ nav h2 {
     color: #E02C6D;
     font-size: 20px;
     font-weight: 700;
+}
+
+/* bonus-section */
+.bonus-section {
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 3%;
+}
+
+.customer-care {
+    display: flex;
+}
+
+.customer-care-service {
+    margin-left: 20px;
+
+}
+
+.customer-care-img img {
+    border-radius: 3%;
+}
+
+.customer-care-service h2 {
+    font-size: 28px;
+    font-weight: 500;
+    margin-top: 18px;
+    margin-bottom: 7px;
+}
+
+/* Footer section */
+.footer-section {
+    background-color: #0A0826;
+    height: 239px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text {
+    text-align: center;
+}
+
+.footer-text h2 {
+    font-size: 25px;
+}
+
+.footer-text h3 {
+    font-size: 15px;
+    margin: 0;
+}
+
+.footer-icons i {
+    margin-top: 10px;
+    margin-right: 5px;
+    font-size: 20px;
+    opacity: 70%;
 }
