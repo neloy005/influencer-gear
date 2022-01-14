@@ -1,0 +1,58 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* common styles */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* nav heading */
+nav h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+/* prebook section  */
+.prebook-section {
+    display: flex;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.prebook-info {
+    max-width: 582px;
+    margin-right: 130px;
+}
+
+.gear-title h3 {
+    font-size: 52px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.gear-info h2 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.gear-order {
+    display: flex;
+    background-color: #E02C6D;
+    height: 44px;
+    width: 150px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+
+.gear-order a {
+    text-decoration: none;
+    color: white;
+    margin-right: 5px;
+}
+
+.order-arrow i {
+    color: white;
+}
