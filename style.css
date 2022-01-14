@@ -41,10 +41,16 @@ nav h2 {
     display: flex;
     background-color: #E02C6D;
     height: 44px;
-    width: 150px;
+    width: 170px;
     justify-content: center;
     align-items: center;
     border-radius: 50px;
+    transition: transform 1s, border 1s;
+}
+
+.gear-order:hover {
+    transform: scale(1.15) rotate(360deg);
+    border: 2px solid black;
 }
 
 .gear-order a {
@@ -55,4 +61,107 @@ nav h2 {
 
 .order-arrow i {
     color: white;
+}
+
+.gear-image:hover {
+    transform: rotate(360deg);
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 50%;
+    transition: transform 2s, box-shadow 2s, border-radius 2s;
+
+}
+
+/* all-products-section  */
+.all-products-section {
+    max-width: 1047px;
+    margin: auto;
+}
+
+.section-two-heading h2 {
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+}
+
+.product-info {
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    width: 329px;
+    height: 476px;
+}
+
+.product-image img {
+    margin-top: 17px;
+    margin-left: 14px;
+    border-radius: 5px;
+}
+
+.product-description {
+    margin-left: 14px;
+}
+
+.product-name {
+    font-size: 28px;
+    font-weight: 500;
+    margin-top: 18px;
+    margin-bottom: 7px;
+}
+
+.product-price {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 6px;
+}
+
+.ratings {
+    display: flex;
+    align-items: center;
+}
+
+.fa-star {
+    color: #FB8200;
+    font-size: 70%;
+}
+
+
+.fa-star-half-alt {
+    color: #FB8200;
+    margin-right: 8px;
+    font-size: 70%;
+}
+
+.rating h3 {
+    margin: 0;
+}
+
+.product-description h3 {
+    font-size: 14px;
+    font-weight: 700;
+    color: #787885;
+    margin: 0;
+}
+
+.see-more {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: #E02C6D;
+    font-size: 12px;
+    padding: 40px 20px;
+
+}
+
+.see-more a {
+    margin-right: 8px;
+    text-decoration: none;
+    color: #E02C6D;
+    font-size: 20px;
+    font-weight: 700;
 }
