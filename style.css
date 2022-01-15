@@ -182,6 +182,7 @@ nav h2 {
 
 .customer-care {
     display: flex;
+    margin-bottom: 100px;
 }
 
 .customer-care-service {
@@ -229,4 +230,77 @@ nav h2 {
     margin-right: 5px;
     font-size: 20px;
     opacity: 70%;
+}
+
+/* Media query */
+@media (max-width:688px) {
+    .prebook-section {
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    nav h2 {
+        text-align: center;
+    }
+
+    .prebook-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0px;
+    }
+
+    .gear-title h3 {
+        text-align: center;
+        font-size: 28px;
+    }
+
+    .gear-info h2 {
+        text-align: center;
+    }
+
+    .gear-image img {
+        margin-top: 50px;
+    }
+
+    .all-products-section {
+
+        max-width: 350px;
+        margin: auto;
+        margin-top: 150px;
+    }
+
+    .products {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 30px;
+        justify-items: center;
+    }
+
+    .bonus-section {
+        margin: 20px;
+        max-width: 430px;
+        margin: auto;
+
+    }
+
+    .customer-care-service {
+        margin: 20px;
+    }
+
+    .customer-care {
+        flex-direction: column;
+        width: 430px;
+    }
+
+    .customer-care-img img {
+        width: 100%;
+    }
+
+
+
 }
