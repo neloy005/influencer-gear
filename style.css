@@ -296,7 +296,7 @@ nav h2 {
 
     .customer-care {
         flex-direction: column;
-        width: 430px;
+        width: 100%;
     }
 
     .customer-care-img img {
