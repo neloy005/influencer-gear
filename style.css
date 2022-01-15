@@ -267,6 +267,12 @@ nav h2 {
 
     .gear-image {
         margin-top: 50px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .gear-image img {
+        width: 70%;
     }
 
     .all-products-section {
@@ -285,7 +291,7 @@ nav h2 {
 
     .bonus-section {
         margin: 20px;
-        max-width: 430px;
+        max-width: 350px;
         margin: auto;
 
     }
@@ -296,7 +302,7 @@ nav h2 {
 
     .customer-care {
         flex-direction: column;
-        width: 100%;
+        width: 350px;
     }
 
     .customer-care-img img {
@@ -336,6 +342,7 @@ nav h2 {
 
     .gear-image {
         margin-top: 50px;
+
     }
 
     .all-products-section {
