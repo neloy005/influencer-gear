@@ -17,9 +17,11 @@ nav h2 {
 
 /* prebook section  */
 .prebook-section {
+    max-width: 1200px;
     display: flex;
     margin-left: 120px;
     margin-right: 120px;
+    margin: auto;
 }
 
 .prebook-info {
@@ -263,7 +265,7 @@ nav h2 {
         text-align: center;
     }
 
-    .gear-image img {
+    .gear-image {
         margin-top: 50px;
     }
 
@@ -300,7 +302,75 @@ nav h2 {
     .customer-care-img img {
         width: 100%;
     }
+}
+
+@media (min-width:688px) and (max-width:992px) {
+    .prebook-section {
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    nav h2 {
+        text-align: center;
+    }
+
+    .prebook-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0px;
+    }
+
+    .gear-title h3 {
+        text-align: center;
+        font-size: 28px;
+    }
+
+    .gear-info h2 {
+        text-align: center;
+    }
+
+    .gear-image {
+        margin-top: 50px;
+    }
+
+    .all-products-section {
+
+        max-width: 900px;
+        margin: auto;
+        margin-top: 150px;
+
+    }
+
+    .products {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 30px;
+        justify-items: center;
+    }
+
+    .bonus-section {
+        margin: 20px;
+        max-width: 700px;
+        margin: auto;
 
 
+    }
 
+    .customer-care-service {
+        margin: 20px;
+    }
+
+    .customer-care {
+        flex-direction: column;
+        width: 700px;
+    }
+
+    .customer-care-img img {
+        width: 100%;
+    }
 }
